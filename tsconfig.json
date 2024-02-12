@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // environment
+    "target": "es2022", // node 18
+    "module": "node16",
+    "moduleResolution": "node16",
+    "moduleDetection": "force",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+
+    // build
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "noEmit": true, // typecheck only
+    "noEmitOnError": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    // lint
+    "strict": true,
+    "noImplicitAny": false,
+  }
+}
