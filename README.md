@@ -1,5 +1,11 @@
 # typescript-config-silverwind [![](https://img.shields.io/npm/v/typescript-config-silverwind.svg)](https://www.npmjs.org/package/typescript-config-silverwind) [![](https://img.shields.io/badge/licence-bsd-blue.svg)](https://raw.githubusercontent.com/silverwind/typescript-config-silverwind/master/LICENSE)
 
+## Installation
+
+```
+npm i typescript-config-silverwind
+```
+
 ## Usage
 
 In your `tsconfig.json`:
