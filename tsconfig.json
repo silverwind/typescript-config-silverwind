@@ -2,8 +2,8 @@
   "compilerOptions": {
     // environment
     "target": "es2022", // node 18
-    "module": "node16",
-    "moduleResolution": "node16",
+    "module": "node16", // alias to nodenext
+    "moduleResolution": "node16", // alias to nodenext
     "moduleDetection": "force",
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
 
