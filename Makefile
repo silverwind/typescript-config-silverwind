@@ -7,7 +7,7 @@ deps: node_modules
 
 .PHONY: test
 test: node_modules
-	npx tsc test.ts
+	npx tsc --noEmit test.ts
 
 .PHONY: publish
 publish: node_modules

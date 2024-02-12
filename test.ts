@@ -1,1 +1,5 @@
-console.info("test");
+function log(str: any) {
+  console.info(str);
+}
+
+log("test");
