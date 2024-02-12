@@ -16,9 +16,12 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
 
     // lint
     "strict": false,
     "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
   }
 }
