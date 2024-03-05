@@ -1,4 +1,4 @@
-function log(str) {
+function log(str: string) {
   console.info(str);
 }
 
