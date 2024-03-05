@@ -15,7 +15,7 @@ lint-fix: node_modules
 
 .PHONY: test
 test: node_modules
-	npx tsc --noEmit test.ts
+	npx tsc
 
 .PHONY: publish
 publish: node_modules

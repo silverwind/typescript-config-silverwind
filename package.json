@@ -6,10 +6,10 @@
   "repository": "silverwind/typescript-config-silverwind",
   "license": "BSD-2-Clause",
   "type": "module",
-  "main": "./tsconfig.json",
-  "exports": "./tsconfig.json",
+  "main": "./index.json",
+  "exports": "./index.json",
   "files": [
-    "./tsconfig.json"
+    "./index.json"
   ],
   "devDependencies": {
     "eslint-config-silverwind": "80.0.5",

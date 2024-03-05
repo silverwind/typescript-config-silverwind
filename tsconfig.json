@@ -1,28 +1,4 @@
 {
-  "compilerOptions": {
-    // environment
-    "target": "es2022", // node 18
-    "module": "node16", // alias to nodenext
-    "moduleResolution": "node16", // alias to nodenext
-    "moduleDetection": "force",
-    "lib": ["DOM", "DOM.Iterable", "ES2022", "WebWorker"],
-
-    // build
-    "allowImportingTsExtensions": true,
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "noEmit": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "verbatimModuleSyntax": false,
-
-    // lint
-    "strict": false,
-    "noImplicitAny": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-  }
+  "extends": "./index.json",
+  "include": ["test.ts"],
 }
