@@ -5,7 +5,7 @@
     "module": "node16", // alias to nodenext
     "moduleResolution": "node16", // alias to nodenext
     "moduleDetection": "force",
-    "lib": ["DOM", "DOM.Iterable", "ES2023", "WebWorker"],
+    "lib": ["DOM", "DOM.Iterable", "ES2023", "ESNext", "WebWorker"],
 
     // build
     "allowImportingTsExtensions": true,
