@@ -1,4 +1,7 @@
 {
+  // Use ${configDir} after below are released
+  // https://github.com/microsoft/TypeScript/issues/57485
+  // https://github.com/typescript-eslint/typescript-eslint/issues/8992
   "include": [
     "**/*",
     "**/.*",
