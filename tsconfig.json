@@ -1,4 +1,10 @@
 {
+  "include": [
+    "**/*",
+    "**/.*",
+    "**/.*/**/*",
+    "**/.*/**/.*",
+  ],
   "compilerOptions": {
     // environment
     "target": "es2022", // node 18
