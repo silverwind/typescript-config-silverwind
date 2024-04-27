@@ -33,8 +33,7 @@
     "verbatimModuleSyntax": false,
 
     // lint
-    "strict": false,
-    "noImplicitAny": false,
+    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noPropertyAccessFromIndexSignature": true,
