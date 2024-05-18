@@ -17,6 +17,7 @@
     "target": "esnext",
     "module": "nodenext",
     "moduleResolution": "nodenext",
+    "moduleDetection": "force",
     "lib": [
       "dom",
       "dom.iterable",
