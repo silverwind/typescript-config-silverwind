@@ -36,6 +36,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "verbatimModuleSyntax": false,
+    "stripInternal": true,
 
     // lint
     "strict": false,
