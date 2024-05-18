@@ -23,9 +23,6 @@
       "dom.iterable",
       "dom.asynciterable",
       "esnext",
-      "webworker",
-      "webworker.iterable",
-      "webworker.asynciterable",
     ],
 
     // build
