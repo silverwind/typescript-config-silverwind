@@ -9,8 +9,13 @@
     "**/.*/**/.*",
   ],
   "exclude": [
-    "**/vendor/**",
+    "**/.git/**",
+    "**/.venv/**",
     "**/dist/**",
+    "**/node_modules/**",
+    "**/persistent/**",
+    "**/ui/build/**",
+    "**/vendor/**",
   ],
   "compilerOptions": {
     // environment
