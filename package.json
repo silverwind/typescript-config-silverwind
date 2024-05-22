@@ -12,8 +12,8 @@
     "tsconfig.json"
   ],
   "devDependencies": {
-    "eslint-config-silverwind": "85.1.3",
-    "eslint-config-silverwind-typescript": "3.2.5",
+    "eslint-config-silverwind": "85.1.4",
+    "eslint-config-silverwind-typescript": "3.2.7",
     "typescript": "5.4.5",
     "updates": "16.1.1",
     "versions": "12.0.2"
