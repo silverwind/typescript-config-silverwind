@@ -1,7 +1,4 @@
 {
-  // Use ${configDir} after below are released
-  // https://github.com/microsoft/TypeScript/issues/57485
-  // https://github.com/typescript-eslint/typescript-eslint/issues/8992
   "include": [
     "**/*",
     "**/.*",
@@ -17,19 +14,11 @@
     "**/vendor/**",
   ],
   "compilerOptions": {
-    // environment
     "target": "esnext",
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "moduleDetection": "force",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "dom.asynciterable",
-      "esnext",
-    ],
-
-    // build
+    "lib": ["dom", "dom.iterable", "dom.asynciterable", "esnext"],
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
@@ -42,8 +31,6 @@
     "skipLibCheck": true,
     "verbatimModuleSyntax": true,
     "stripInternal": true,
-
-    // lint
     "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
