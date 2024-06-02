@@ -12,7 +12,6 @@
     "**/.git/**",
     "**/.venv/**",
     "**/dist/**",
-    "**/node_modules/**",
     "**/persistent/**",
     "**/ui/build/**",
     "**/vendor/**",
