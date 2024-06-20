@@ -19,6 +19,7 @@
     "moduleResolution": "nodenext",
     "moduleDetection": "force",
     "lib": ["dom", "dom.iterable", "dom.asynciterable", "esnext"],
+    "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
