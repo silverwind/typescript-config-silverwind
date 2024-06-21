@@ -17,7 +17,6 @@
     "target": "esnext",
     "module": "nodenext",
     "moduleResolution": "nodenext",
-    "moduleDetection": "force",
     "lib": ["dom", "dom.iterable", "dom.asynciterable", "esnext"],
     "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
