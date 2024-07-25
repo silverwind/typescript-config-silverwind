@@ -1,17 +1,17 @@
 {
   "include": [
-    "**/*",
-    "**/.*",
-    "**/.*/**/*",
-    "**/.*/**/.*",
+    "${configDir}/**/*",
+    "${configDir}/**/.*",
+    "${configDir}/**/.*/**/*",
+    "${configDir}/**/.*/**/.*",
   ],
   "exclude": [
-    "**/.git/**",
-    "**/.venv/**",
-    "**/dist/**",
-    "**/persistent/**",
-    "**/ui/build/**",
-    "**/vendor/**",
+    "${configDir}/**/.git/**",
+    "${configDir}/**/.venv/**",
+    "${configDir}/**/dist/**",
+    "${configDir}/**/persistent/**",
+    "${configDir}/**/ui/build/**",
+    "${configDir}/**/vendor/**",
   ],
   "compilerOptions": {
     "target": "esnext",
