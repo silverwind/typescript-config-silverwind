@@ -11,7 +11,6 @@
     "${configDir}/**/dist/**",
     "${configDir}/**/persistent/**",
     "${configDir}/**/ui/build/**",
-    "${configDir}/**/vendor/**",
   ],
   "compilerOptions": {
     "target": "esnext",
