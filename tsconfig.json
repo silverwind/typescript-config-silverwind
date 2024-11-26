@@ -37,5 +37,6 @@
     "exactOptionalPropertyTypes": false,
     "declaration": true,
     "declarationMap": true,
+    "tsBuildInfoFile": "./node_modules/.cache/tsbuild",
   }
 }
