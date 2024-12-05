@@ -38,6 +38,6 @@
     "declaration": true,
     "declarationMap": true,
     "composite": true, // for tsBuildInfoFile
-    "tsBuildInfoFile": "./node_modules/.cache/tsbuild",
+    "tsBuildInfoFile": "./node_modules/.cache/tsbuild", // avoid dumping it into root
   }
 }
