@@ -15,7 +15,6 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "nodenext",
-    "moduleResolution": "nodenext",
     "lib": ["dom", "dom.iterable", "dom.asynciterable", "esnext"],
     "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
