@@ -7,10 +7,14 @@
   ],
   "exclude": [
     "${configDir}/**/.git/**",
-    "${configDir}/**/.venv/**",
+    "${configDir}/**/.air/**",
+    "${configDir}/**/.make/**",
+    "${configDir}/**/.swc/**",
+    "${configDir}/**/.ruff_cache/**",
     "${configDir}/**/dist/**",
+    "${configDir}/**/build/**",
     "${configDir}/**/persistent/**",
-    "${configDir}/**/ui/build/**",
+    "${configDir}/**/node_modules/**",
   ],
   "compilerOptions": {
     "target": "es2020", // match vite's "modules" target
