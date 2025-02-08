@@ -35,6 +35,7 @@
     // "libReplacement": false, // TODO 5.8+
     "noEmit": true,
     "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedSideEffectImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "resolveJsonModule": true,
