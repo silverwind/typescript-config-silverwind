@@ -23,7 +23,7 @@
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "alwaysStrict": true,
+
     "declaration": true,
     "declarationMap": true,
     // "erasableSyntaxOnly": true, // TODO: 5.8+
@@ -43,5 +43,16 @@
     "strict": false,
     "stripInternal": true,
     "verbatimModuleSyntax": true,
+
+    // strict
+    "alwaysStrict": true,
+    "strictNullChecks": false,
+    "strictBindCallApply": true,
+    "strictBuiltinIteratorReturn": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false, // depens on strictNullChecks
+    "noImplicitThis": true,
+    "noImplicitAny": false, // TODO,
+    "useUnknownInCatchVariables": false,
   }
 }
