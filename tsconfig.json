@@ -52,7 +52,7 @@
     "strictFunctionTypes": true,
     "strictPropertyInitialization": false, // depens on strictNullChecks
     "noImplicitThis": true,
-    "noImplicitAny": false, // TODO,
+    "noImplicitAny": true,
     "useUnknownInCatchVariables": false,
   }
 }
