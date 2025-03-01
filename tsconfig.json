@@ -26,13 +26,13 @@
 
     "declaration": true,
     "declarationMap": true,
-    // "erasableSyntaxOnly": true, // TODO: 5.8+
+    "erasableSyntaxOnly": true,
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": false,
     "isolatedModules": true,
     "jsx": "react-jsx",
     "lib": ["dom", "dom.iterable", "dom.asynciterable", "esnext"],
-    // "libReplacement": false, // TODO 5.8+
+    "libReplacement": false,
     "noEmit": true,
     "noPropertyAccessFromIndexSignature": false,
     "noUncheckedSideEffectImports": true,
