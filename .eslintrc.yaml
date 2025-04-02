@@ -1,7 +1,6 @@
 root: true
 extends:
   - eslint-config-silverwind
-  - eslint-config-silverwind-typescript
 
 rules:
   "@typescript-eslint/no-explicit-any": [0]
