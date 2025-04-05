@@ -17,6 +17,7 @@
     "${configDir}/**/node_modules/**",
   ],
   "compilerOptions": {
+    "outDir": "dist", // for type definitions
     "target": "es2020", // match vite's "modules" target
     "module": "nodenext",
     "allowArbitraryExtensions": true,
