@@ -6,15 +6,17 @@
     "${configDir}/**/.*/**/.*",
   ],
   "exclude": [
-    "${configDir}/**/.git/**",
+    "${configDir}/**/*.config.*",
+    "${configDir}/**/*.test.*",
     "${configDir}/**/.air/**",
+    "${configDir}/**/.git/**",
     "${configDir}/**/.make/**",
-    "${configDir}/**/.swc/**",
     "${configDir}/**/.ruff_cache/**",
-    "${configDir}/**/dist/**",
+    "${configDir}/**/.swc/**",
     "${configDir}/**/build/**",
-    "${configDir}/**/persistent/**",
+    "${configDir}/**/dist/**",
     "${configDir}/**/node_modules/**",
+    "${configDir}/**/persistent/**",
   ],
   "compilerOptions": {
     "outDir": "dist", // for type definitions
