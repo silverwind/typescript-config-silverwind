@@ -6,8 +6,6 @@
     "${configDir}/**/.*/**/.*",
   ],
   "exclude": [
-    "${configDir}/**/*.config.*",
-    "${configDir}/**/*.test.*",
     "${configDir}/**/.air/**",
     "${configDir}/**/.git/**",
     "${configDir}/**/.make/**",
