@@ -11,6 +11,7 @@
     "${configDir}/**/.make/**",
     "${configDir}/**/.ruff_cache/**",
     "${configDir}/**/.swc/**",
+    "${configDir}/**/.venv/**",
     "${configDir}/**/build/**",
     "${configDir}/**/dist/**",
     "${configDir}/**/node_modules/**",
