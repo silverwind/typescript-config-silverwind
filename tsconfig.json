@@ -45,6 +45,7 @@
     "strict": false,
     "stripInternal": true,
     "verbatimModuleSyntax": true,
+    "pretty": true,
 
     // strict
     "alwaysStrict": true,
