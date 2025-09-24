@@ -27,7 +27,7 @@
     "allowSyntheticDefaultImports": true,
 
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false, // https://github.com/rolldown/tsdown/issues/504
     "erasableSyntaxOnly": true,
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": false,
