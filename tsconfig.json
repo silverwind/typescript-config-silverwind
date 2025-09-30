@@ -25,7 +25,6 @@
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-
     "declaration": true,
     "declarationMap": false, // https://github.com/rolldown/tsdown/issues/504
     "erasableSyntaxOnly": true,
@@ -57,5 +56,9 @@
     "noImplicitThis": true,
     "noImplicitAny": false, // TODO,
     "useUnknownInCatchVariables": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
   }
 }
