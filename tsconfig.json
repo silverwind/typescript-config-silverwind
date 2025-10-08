@@ -19,7 +19,7 @@
   ],
   "compilerOptions": {
     "outDir": "dist", // for type definitions
-    "target": "es2020", // match vite's "modules" target
+    "target": "esnext",
     "module": "nodenext",
     "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
