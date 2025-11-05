@@ -17,11 +17,6 @@ lint-fix: node_modules
 test: node_modules
 	npx tsc
 
-.PHONY: publish
-publish: node_modules
-	if git ls-remote --exit-code origin &>/dev/null; then git push -u -f --tags origin master; fi
-	npm publish
-
 .PHONY: update
 update: node_modules
 	npx updates -cu
@@ -29,18 +24,22 @@ update: node_modules
 	npm install
 	@touch node_modules
 
+.PHONY: publish
+publish: node_modules
+	npm publish
+
 .PHONY: patch
-patch: node_modules test
+patch: node_modules lint test
 	npx versions patch package.json package-lock.json
-	$(MAKE) --no-print-directory publish
+	git push -u --tags origin master
 
 .PHONY: minor
-minor: node_modules test
+minor: node_modules lint test
 	npx versions minor package.json package-lock.json
-	$(MAKE) --no-print-directory publish
+	git push -u --tags origin master
 
 .PHONY: major
-major: node_modules test
+major: node_modules lint test
 	npx versions major package.json package-lock.json
-	$(MAKE) --no-print-directory publish
+	git push -u --tags origin master
 
