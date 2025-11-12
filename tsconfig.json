@@ -42,24 +42,24 @@
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": false,
     "stripInternal": true,
     "verbatimModuleSyntax": true,
     "pretty": true,
 
     // strict
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
     "alwaysStrict": true,
-    "strictNullChecks": false, // TODO,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strict": false,
     "strictBindCallApply": true,
     "strictBuiltinIteratorReturn": true,
     "strictFunctionTypes": true,
-    "strictPropertyInitialization": false, // depens on strictNullChecks
-    "noImplicitThis": true,
-    "noImplicitAny": false, // TODO,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
     "useUnknownInCatchVariables": false,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
   }
 }
