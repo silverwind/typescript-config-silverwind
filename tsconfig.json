@@ -21,6 +21,7 @@
     "outDir": "dist", // for type definitions
     "target": "esnext",
     "module": "nodenext",
+    "moduleResolution": "nodenext",
     "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
     "allowJs": true,
