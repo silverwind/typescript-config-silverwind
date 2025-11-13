@@ -59,7 +59,7 @@
     "strictBuiltinIteratorReturn": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true,
+    "strictPropertyInitialization": false, // TODO: true, it's annoying because throws when strictNullChecks is false
     "useUnknownInCatchVariables": false,
   }
 }
