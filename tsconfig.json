@@ -45,21 +45,21 @@
     "stripInternal": true,
     "verbatimModuleSyntax": true,
     "pretty": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
 
     // strict
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "alwaysStrict": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
     "strict": false,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
     "strictBindCallApply": true,
     "strictBuiltinIteratorReturn": true,
     "strictFunctionTypes": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": false, // TODO: true, it's annoying because throws when strictNullChecks is false
+    "strictPropertyInitialization": false, // TODO: true, it's annoying because TS throws when strictNullChecks is false
+    "noImplicitAny": true,
+    "noImplicitThis": true,
     "useUnknownInCatchVariables": false,
   }
 }
