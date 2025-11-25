@@ -57,7 +57,7 @@
     "strictBindCallApply": true,
     "strictBuiltinIteratorReturn": true,
     "strictFunctionTypes": true,
-    "strictPropertyInitialization": false, // TODO: true, it's annoying because TS throws when strictNullChecks is false
+    "strictPropertyInitialization": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "useUnknownInCatchVariables": false,
