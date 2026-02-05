@@ -17,5 +17,6 @@
     "typescript": "5.9.3",
     "updates": "17.0.8",
     "versions": "14.0.3"
-  }
+  },
+  "packageManager": "pnpm@10.28.2"
 }
