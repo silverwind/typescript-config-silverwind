@@ -15,7 +15,7 @@ lint-fix: node_modules
 
 .PHONY: test
 test: node_modules
-	pnpm exec tsc
+	pnpm exec tsgo
 
 .PHONY: update
 update: node_modules
