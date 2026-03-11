@@ -30,15 +30,15 @@
     "declarationMap": false, // https://github.com/rolldown/tsdown/issues/504
     "erasableSyntaxOnly": true,
     "esModuleInterop": true,
-    "exactOptionalPropertyTypes": false,
+    "exactOptionalPropertyTypes": false, // TODO
     "isolatedModules": true,
     "jsx": "react-jsx",
     "types": [], // disable automatic inclusion of all @types packages
     "lib": ["DOM", "DOM.Iterable", "DOM.AsyncIterable", "ESNext"],
     "libReplacement": false,
     "noEmit": true,
-    "noPropertyAccessFromIndexSignature": false,
-    "noUncheckedIndexedAccess": false,
+    "noPropertyAccessFromIndexSignature": false, // TODO
+    "noUncheckedIndexedAccess": false, // TODO
     "noUncheckedSideEffectImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -62,6 +62,6 @@
     "strictPropertyInitialization": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
-    "useUnknownInCatchVariables": false,
+    "useUnknownInCatchVariables": false, // TODO
   }
 }
