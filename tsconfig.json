@@ -26,7 +26,7 @@
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "declaration": true,
+    "declaration": false, // d.ts emit is handled by tsdown, not tsc/tsgo
     "declarationMap": false, // https://github.com/rolldown/tsdown/issues/504
     "erasableSyntaxOnly": true,
     "esModuleInterop": true,
