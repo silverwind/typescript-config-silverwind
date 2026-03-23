@@ -52,16 +52,7 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
 
-    // strict
-    "strict": false,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "strictBindCallApply": true,
-    "strictBuiltinIteratorReturn": true,
-    "strictFunctionTypes": true,
-    "strictPropertyInitialization": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
+    "strict": true,
     "useUnknownInCatchVariables": false, // TODO
   }
 }
