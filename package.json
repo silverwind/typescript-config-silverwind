@@ -6,6 +6,7 @@
   "repository": "silverwind/typescript-config-silverwind",
   "license": "BSD-2-Clause",
   "type": "module",
+  "sideEffects": false,
   "main": "./tsconfig.json",
   "exports": "./tsconfig.json",
   "files": [
