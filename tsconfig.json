@@ -34,7 +34,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "types": [], // disable automatic inclusion of all @types packages
-    "lib": ["DOM", "DOM.Iterable", "DOM.AsyncIterable", "ESNext"],
+    "lib": ["DOM", "ESNext"],
     "libReplacement": false,
     "noEmit": true,
     "noPropertyAccessFromIndexSignature": false, // TODO
