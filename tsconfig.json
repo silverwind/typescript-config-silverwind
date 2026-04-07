@@ -16,6 +16,7 @@
     "${configDir}/**/dist/**",
     "${configDir}/**/node_modules/**",
     "${configDir}/**/persistent/**",
+    "${configDir}/eslint.config.ts", // https://github.com/eslint/rewrite/issues/425
   ],
   "compilerOptions": {
     "outDir": "dist", // for type definitions
