@@ -16,6 +16,7 @@
     "@typescript/native-preview": "7.0.0-dev.20260413.1",
     "eslint": "10.2.0",
     "eslint-config-silverwind": "131.0.4",
+    "jest-extended": "7.0.0",
     "typescript": "5.9.3",
     "updates": "17.15.2",
     "updates-config-silverwind": "2.1.0",
