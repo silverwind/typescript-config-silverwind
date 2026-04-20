@@ -53,6 +53,5 @@
     "noImplicitReturns": true,
 
     "strict": true,
-    "useUnknownInCatchVariables": false, // TODO
   }
 }
