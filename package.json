@@ -13,12 +13,12 @@
     "tsconfig.json"
   ],
   "devDependencies": {
-    "@typescript/native-preview": "7.0.0-dev.20260510.1",
+    "@typescript/native-preview": "7.0.0-dev.20260512.1",
     "eslint": "10.3.0",
     "eslint-config-silverwind": "133.0.1",
     "jest-extended": "7.0.0",
     "typescript": "6.0.3",
-    "updates": "17.16.9",
+    "updates": "17.16.10",
     "updates-config-silverwind": "3.0.2",
     "versions": "15.0.3"
   },
