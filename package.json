@@ -19,8 +19,8 @@
     "jest-extended": "7.0.0",
     "typescript": "6.0.3",
     "updates": "17.17.3",
-    "updates-config-silverwind": "3.0.2",
+    "updates-config-silverwind": "4.0.0",
     "versions": "15.1.0"
   },
-  "packageManager": "pnpm@10.34.1"
+  "packageManager": "pnpm@11.5.2"
 }
