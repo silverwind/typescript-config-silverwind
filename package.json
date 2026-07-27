@@ -8,10 +8,7 @@
   "type": "module",
   "sideEffects": false,
   "main": "./tsconfig.json",
-  "exports": {
-    ".": "./tsconfig.json",
-    "./tsconfig.json": "./tsconfig.json"
-  },
+  "exports": "./tsconfig.json",
   "files": [
     "tsconfig.json"
   ],
