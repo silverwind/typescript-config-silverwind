@@ -30,14 +30,15 @@
     "declarationMap": false, // https://github.com/rolldown/tsdown/issues/504
     "erasableSyntaxOnly": true,
     "esModuleInterop": true,
-    "exactOptionalPropertyTypes": false, // TODO
+    "exactOptionalPropertyTypes": false,
     "isolatedModules": true,
     "jsx": "react-jsx",
     "types": [], // disable automatic inclusion of all @types packages
     "lib": ["DOM", "ESNext"],
     "libReplacement": false,
     "noEmit": true,
-    "noPropertyAccessFromIndexSignature": false, // TODO
+    "noImplicitOverride": false,
+    "noPropertyAccessFromIndexSignature": false,
     "noUncheckedIndexedAccess": false, // TODO
     "noUncheckedSideEffectImports": true,
     "noUnusedLocals": true,
