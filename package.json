@@ -14,13 +14,13 @@
   ],
   "devDependencies": {
     "@typescript/native-preview": "7.0.0-dev.20260707.2",
-    "eslint": "10.9.1",
-    "eslint-config-silverwind": "146.0.0",
+    "eslint": "10.10.0",
+    "eslint-config-silverwind": "148.0.1",
     "jest-extended": "7.0.0",
     "typescript": "6.0.3",
-    "updates": "18.0.8",
-    "updates-config-silverwind": "4.0.5",
-    "versions": "15.3.8"
+    "updates": "18.1.0",
+    "updates-config-silverwind": "4.0.6",
+    "versions": "15.4.0"
   },
-  "packageManager": "pnpm@12.3.4"
+  "packageManager": "pnpm@12.4.1"
 }
