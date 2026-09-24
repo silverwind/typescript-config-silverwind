@@ -43,7 +43,7 @@
     "lib": ["DOM", "ESNext"],
     "libReplacement": false,
     "noEmit": true,
-    "noImplicitOverride": false,
+    "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": false,
     "noUncheckedIndexedAccess": false, // TODO
     "noUncheckedSideEffectImports": true,
