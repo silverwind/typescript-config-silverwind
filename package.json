@@ -3,7 +3,10 @@
   "version": "21.0.0",
   "description": "Typescript configuration",
   "author": "silverwind <me@silverwind.io>",
-  "repository": "silverwind/typescript-config-silverwind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverwind/typescript-config-silverwind.git"
+  },
   "license": "BSD-2-Clause",
   "type": "module",
   "sideEffects": false,
