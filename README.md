@@ -13,13 +13,7 @@ In `tsconfig.json`:
 
 ```json
 {
-  "extends": "typescript-config-silverwind",
-  "include": [
-    "**/*",
-    "**/.*",
-    "**/.*/**/*",
-    "**/.*/**/.*"
-  ]
+  "extends": "typescript-config-silverwind"
 }
 ```
 
