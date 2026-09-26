@@ -24,7 +24,7 @@
     "${configDir}/**/persistent/**",
   ],
   "compilerOptions": {
-    "outDir": "dist", // for type definitions
+    "outDir": "${configDir}/dist", // for type definitions
     "target": "esnext",
     "module": "nodenext",
     "moduleResolution": "nodenext",
