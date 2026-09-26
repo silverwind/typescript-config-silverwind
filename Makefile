@@ -8,14 +8,22 @@ deps: node_modules
 .PHONY: lint
 lint: node_modules
 	pnpm exec eslint-silverwind --color .
+	pnpm exec tsgo
 
 .PHONY: lint-fix
 lint-fix: node_modules
 	pnpm exec eslint-silverwind --color . --fix
+	pnpm exec tsgo
 
 .PHONY: test
 test: node_modules
-	pnpm exec tsgo
+
+.PHONY: build
+build: node_modules
+
+.PHONY: publish
+publish: node_modules
+	pnpm publish --no-git-checks
 
 .PHONY: update
 update: update-js update-actions
@@ -27,15 +35,10 @@ update-js: node_modules
 	pnpm install
 	@touch node_modules
 
-.PHONY: publish
-publish: node_modules
-	pnpm publish --no-git-checks
+.PHONY: update-actions
+update-actions: node_modules
+	pnpm exec updates -u -M actions
 
 .PHONY: patch minor major
 patch minor major: node_modules lint test
 	pnpm exec versions -R $@ package.json
-
-
-.PHONY: update-actions
-update-actions: node_modules
-	pnpm exec updates -u -M actions
