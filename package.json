@@ -15,13 +15,13 @@
   "files": [
     "tsconfig.json"
   ],
-  "packageManager": "pnpm@12.6.0",
+  "packageManager": "pnpm@12.16.1",
   "devDependencies": {
-    "eslint": "10.11.0",
+    "eslint": "10.14.0",
     "eslint-config-silverwind": "155.2.0",
     "typescript": "7.0.2",
-    "updates": "19.0.2",
+    "updates": "20.0.0",
     "updates-config-silverwind": "4.1.0",
-    "versions": "15.5.1"
+    "versions": "15.5.2"
   }
 }
