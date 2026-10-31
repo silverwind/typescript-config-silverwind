@@ -1,7 +1,6 @@
+/.vscode
 /node_modules
 /npm-debug.log*
-/yarn.lock
-/yarn-error.log
-.DS_Store
 .pnpm-store
 .pnpm-debug.log*
+.DS_Store
